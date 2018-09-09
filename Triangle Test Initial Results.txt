@@ -1,0 +1,27 @@
+
+
+
+Test ID		   Input		   Expected Result            Actual Result	  Pass or Fail
+-------------------------------------------------------------------------------------------------------
+   1       classifyTriangle(1,1,1)           Equilateral               InvalidInput          FAIL
+   2       classifyTriangle(6,6,10)           Isoceles                 InvalidInput          FAIL
+   3       classifyTriangle(2,4,46)         NotATriangle               InvalidInput          FAIL
+   4       classifyTriangle(3,4,5)              Right                  InvalidInput          FAIL
+   5       classifyTriangle(5,3,4)              Right                  InvalidInput          FAIL
+   6       classifyTriangle(6,8,9)             Scalene                 InvalidInput          FAIL
+   7       classifyTriangle(6,8,10)             Right                  InvalidInput          FAIL
+   8       classifyTriangle(30,40,50)           Right                  InvalidInput          FAIL
+   9       classifyTriangle(69,92,115)          Right                  InvalidInput          FAIL
+   10      classifyTriangle(4,4,4)           Equilateral               InvalidInput          FAIL
+   11      classifyTriangle(199,199,199)     Equilateral               InvalidInput          FAIL
+   12      classifyTriangle(42,42,42)        Equilateral               InvalidInput          FAIL
+   13      classifyTriangle(111,111,111)     Equilateral               InvalidInput          FAIL
+   14      classifyTriangle(36,60,36)         Isoceles                 InvalidInput          FAIL
+   15      classifyTriangle(12,12,20)         Isoceles                 InvalidInput          FAIL
+   16      classifyTriangle(180,40,180)       Isoceles                 InvalidInput          FAIL
+   17      classifyTriangle(6,45,45)          Isoceles                 InvalidInput          FAIL
+   18      classifyTriangle(12,88,99)          Scalene                 InvalidInput          FAIL
+   19      classifyTriangle(6,12,10)           Scalene                 InvalidInput          FAIL
+   20      classifyTriangle(40,30,60)          Scalene                 InvalidInput          FAIL
+   21      classifyTriangle(9,4,10)            Scalene                 InvalidInput          FAIL
+   22      classifyTriangle(120,150,125)       Scalene                 InvalidInput          FAIL

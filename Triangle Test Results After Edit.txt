@@ -1,0 +1,25 @@
+
+Test ID		   Input		   Expected Result            Actual Result	  Pass or Fail
+-------------------------------------------------------------------------------------------------------
+   1       classifyTriangle(1,1,1)           Equilateral              Equilateral           PASS
+   2       classifyTriangle(6,6,10)           Isoceles                  Isoceles            PASS
+   3       classifyTriangle(2,4,46)         NotATriangle              NotATriangle          PASS
+   4       classifyTriangle(3,4,5)              Right                    Right              PASS
+   5       classifyTriangle(5,3,4)              Right                    Right              PASS
+   6       classifyTriangle(6,8,9)             Scalene                  Scalene             PASS
+   7       classifyTriangle(6,8,10)             Right                    Right              PASS
+   8       classifyTriangle(30,40,50)           Right                    Right              PASS
+   9       classifyTriangle(69,92,115)          Right                    Right              PASS
+   10      classifyTriangle(4,4,4)           Equilateral              Equilateral           PASS
+   11      classifyTriangle(199,199,199)     Equilateral              Equilateral           PASS
+   12      classifyTriangle(42,42,42)        Equilateral              Equilateral           PASS
+   13      classifyTriangle(111,111,111)     Equilateral              Equilateral           PASS
+   14      classifyTriangle(36,60,36)         Isoceles                  Isoceles            PASS
+   15      classifyTriangle(12,12,20)         Isoceles                  Isoceles            PASS
+   16      classifyTriangle(180,40,180)       Isoceles                  Isoceles            PASS
+   17      classifyTriangle(6,45,45)          Isoceles                  Isoceles            PASS
+   18      classifyTriangle(12,88,99)          Scalene                  Scalene             PASS
+   19      classifyTriangle(6,12,10)           Scalene                  Scalene             PASS
+   20      classifyTriangle(40,30,60)          Scalene                  Scalene             PASS
+   21      classifyTriangle(9,4,10)            Scalene                  Scalene             PASS
+   22      classifyTriangle(120,150,125)       Scalene                  Scalene             PASS
