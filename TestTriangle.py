@@ -60,6 +60,12 @@ class TestTriangles(unittest.TestCase):
         """Tests to determine that program can correctly associate NON Triangles"""
         self.assertEqual(classify_triangle(2, 4, 46), 'NotATriangle', '2,4,46 is NOT a Triangle')
 
+    def test_invalid_triangle(self):
+        """Tests to determine that program can correctly associate invalid Triangles"""
+        self.assertEqual(classify_triangle(201, 201, 201), 'InvalidInput', '201,201,201 is Invalid')
+        self.assertEqual(classify_triangle(-3, -4, -5), 'InvalidInput', '-3,-4,-5 is Invalid')
+        self.assertEqual(classify_triangle(3.4, 4.5, 6.8), 'InvalidInput', '3.4,3.5,6.8 is Invalid')
+
 
 if __name__ == '__main__':
     print('Running unit tests')
